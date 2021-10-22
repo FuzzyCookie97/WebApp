@@ -35,4 +35,5 @@ import { MyComponent } from "./MyComponent"
     fireEvent.click(screen.getByText('false'))
 
     expect(document.querySelector('p')).toHaveTextContent('false')
+    
   })
