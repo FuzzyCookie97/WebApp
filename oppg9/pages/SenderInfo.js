@@ -2,6 +2,7 @@ import { useState } from 'react'
 
 import axios from 'axios'
 
+//Skal være minste kravet hvertfall, litt usikker om jeg gjorde alt riktig
 const SenderInfo = () => {
   const [info, setInfo] = useState([])
   const [error, setError] = useState(null)
