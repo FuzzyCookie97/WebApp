@@ -23,8 +23,8 @@ export default function Home() {
           </a>
 
           <a href="SenderInfo" className={styles.card}>
-            <h2>Sending to API &rarr;</h2>
-            <p>Because I have to</p>
+            <h2>Sending to API Example &rarr;</h2>
+            <p>This is the main URL</p>
           </a>
 
         </div>
